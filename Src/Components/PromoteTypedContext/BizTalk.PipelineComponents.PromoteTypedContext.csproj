@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BizTalk.PipelineComponents</RootNamespace>
-    <AssemblyName>BizTalk.PipelineComponents.PromoteContext</AssemblyName>
+    <AssemblyName>BizTalk.PipelineComponents.PromoteTypedContext</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>
@@ -79,6 +79,7 @@
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="BizTalk.PipelineComponents.PromoteTypedContext.nuspec" />
     <None Include="key.snk" />
     <None Include="packages.config" />
   </ItemGroup>

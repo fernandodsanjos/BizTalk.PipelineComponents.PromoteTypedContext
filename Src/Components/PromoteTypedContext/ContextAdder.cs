@@ -82,6 +82,9 @@ namespace BizTalk.PipelineComponents
             {
                 if (properties == null)
                     properties = new ContextValueCollection();
+
+                properties.Namespaces = Namespaces;
+                
                 return properties;
             }
             set
@@ -105,7 +108,7 @@ namespace BizTalk.PipelineComponents
         {
             get
             {
-                return "Add context properties";
+                return "Add typed context properties";
             }
         }
         [System.ComponentModel.Browsable(false)]
@@ -121,7 +124,7 @@ namespace BizTalk.PipelineComponents
         {
             get
             {
-                return "2.0.0.0";
+                return "1.0.0.0";
             }
         }
 

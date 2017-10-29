@@ -52,7 +52,7 @@ namespace BizTalk.PipelineComponents
             {
 
                 coll = ContextValueCollection.Deserialize(new_state);
-               
+              
             }
                 
             return coll;
